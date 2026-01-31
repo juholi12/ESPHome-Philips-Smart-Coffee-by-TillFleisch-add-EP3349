@@ -21,6 +21,7 @@ COMMAND_SETS = {
     "EP_3243": "PHILIPS_EP3243",
     # Note that the EP3243 and EP3246 are identical except for cosmetic differences
     "EP_3246": "PHILIPS_EP3243",
+    "EP_3347": "PHILIPS_EP3347",
 }
 
 CONF_LANGUAGE = "language"
