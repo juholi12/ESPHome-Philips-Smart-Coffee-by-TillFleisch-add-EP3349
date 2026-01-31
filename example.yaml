@@ -26,7 +26,12 @@ philips_coffee_machine:
   display_uart: uart_display
   mainboard_uart: uart_mainboard
   power_pin: GPIO12
+#  invert_power_pin: true
+#  power_trip_delay: 750ms
   id: philip
+  model: EP_2220 # Default: EP_2220; Possible: EP_2235, EP_3243, EP_3347 look code tests
+  language: en-US # Default: en-US; Possible: de-DE, it-IT, hu-HU
+
 
 text_sensor:
   - platform: philips_coffee_machine
