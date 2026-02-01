@@ -28,6 +28,7 @@ namespace esphome
                 HOT_WATER,
                 AMERICANO,
                 LATTE_MACCHIATO,
+                ICED_COFFEE,
             };
 
             /**

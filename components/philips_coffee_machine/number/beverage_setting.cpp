@@ -85,7 +85,7 @@ namespace esphome
                                 case SIZE:
                                     mainboard_uart_->write_array(command_press_size);
                                     break;
-#ifdef PHILIPS_EP3243
+#ifdef PHILIPS_EP3243 || PHILIPS_EP3347
                                 case MILK:
                                     mainboard_uart_->write_array(command_press_milk);
                                     break;

@@ -29,6 +29,7 @@ SOURCES = {
     "HOT_WATER": Source.HOT_WATER,
     "AMERICANO": Source.AMERICANO,
     "LATTE_MACCHIATO": Source.LATTE_MACCHIATO,
+    "ICED_COFFEE": Source.ICED_COFFEE,
 }
 
 Type = philips_beverage_settings_ns.enum("TYPE")
